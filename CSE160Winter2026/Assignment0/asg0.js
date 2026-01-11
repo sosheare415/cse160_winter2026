@@ -1,3 +1,11 @@
+/*
+Sean O'Shea-Reyff
+CSE160
+Winter 2026
+Professor Davis
+asg0.js
+*/
+
 // DrawRectangle.js
 let canvas, ctx, scale;
 function main() {
