@@ -1,3 +1,12 @@
+/*
+Sean O'Shea-Reyff
+sosheare@ucsc.edu
+CSE160
+Winter 2026
+Professor Davis
+ColoredPoints.js (asg1.js)
+*/
+
 // ColoredPoint.js (c) 2012 matsuda
 // Vertex shader program
 var VSHADER_SOURCE = `
