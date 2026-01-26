@@ -1,0 +1,63 @@
+<!--
+Sean O'Shea-Reyff
+sosheare@ucsc.edu
+CSE160
+Winter 2026
+Professor Davis
+ColoredPoints.html (asg1.html)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Change a point color</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <br><br>
+
+    <p id="numdot"></p>
+
+    <button type="button" id='Green'>Green</button>
+    <button type="button" id='Red'>Red</button>
+    <button type="button" id='Blue'>Blue</button>
+    <button type="button" id='Clear'>Clear</button>
+    <br><br>
+
+    <button type="button" id='Point'>Point</button>
+    <button type="button" id='Triangle'>Triangle</button>
+    <button type="button" id='Circle'>Circle</button>
+    <br><br>
+
+    <p>
+      Red: <input type="range" min="0" max="100" value="100" class="slider" id="redSlide">
+    <p>
+      Green: <input type="range" min="0" max="100" value="0" class="slider" id="greenSlide">
+    <p>
+      Blue: <input type="range" min="0" max="100" value="0" class="slider" id="blueSlide">
+
+    <p>
+      Dot Size: <input type="range" min="5" max="40" value="0" class="slider" id="sizeSlide">
+    <p>
+      Number of Segments: <input type="range" min="5" max="40" value="5" class="slider" id="segmentSlide">
+    <p>
+      Camera Angle: <input type="range" min="0" max="90" value="5" class="slider" id="angleSlide">
+    <p>
+
+    <br><br>
+
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-cse160.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Point.js"></script>
+    <script src="Circle.js"></script>
+    <script src="Cube.js"></script>
+    <script src="BlockyAnimal.js"></script>
+  </body>
+</html>
